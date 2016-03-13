@@ -63,7 +63,12 @@ public class iosiff {
             }
 
         }
-        System.out.println("Lucky #" + (l + 1) + " has survived");
+        if (m+1==0) {
+            System.out.println("Everyone has survived");
+        } else {
+            System.out.println("Lucky #" + (l + 1) + " has survived");
+
+        }
 
     }
 }
