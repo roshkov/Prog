@@ -47,6 +47,10 @@ public class iosiff {
 
             mass[q] = 0;
             q = q + 1;
+            
+            if (q > n - 1) {
+                        q = q - n;
+                    }
 
 
             ////
